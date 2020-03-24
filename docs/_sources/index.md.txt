@@ -45,7 +45,7 @@
 
 [Google](https://www.google.co.jp/)
 
-## 表
+## 6. 表
 
 ---
 
@@ -54,7 +54,7 @@
 |align left|align right|align center|
 |a|b|c|
 
-## 6. コードの表示
+## 7. コードの表示
 
 ---
 
@@ -64,7 +64,7 @@ print('Hello')
 print('Hello')
 ```
 
-## 7. 引用
+## 8. 引用
 
 ---
 

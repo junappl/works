@@ -44,6 +44,9 @@ extensions = [
     'sphinx_markdown_tables',
 ]
 
+html_show_sphinx = False # フッターのSphinx表記を削除
+html_use_index = False   # メニューから「索引」を削除
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -106,6 +109,12 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+html_sidebars = {
+    'index': ['localtoc.html', 'searchbox.html'],
+    '**/index': ['localtoc.html', 'searchbox.html'],
+    '**/contact': ['searchbox.html'],
+    '**/privacy-policy': ['searchbox.html'],
+}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
